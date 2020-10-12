@@ -2,6 +2,8 @@ module github.com/croomes/kubectl-plugin
 
 go 1.12
 
+replace github.com/replicatedhq/troubleshoot => /Users/ferran/repos/troubleshoot
+
 require (
 	github.com/ahmetalpbalkan/go-cursor v0.0.0-20131010032410-8136607ea412
 	github.com/fatih/color v1.7.0
